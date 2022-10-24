@@ -125,7 +125,7 @@ function App() {
 
   return (
     <div className="app">
-    {/* rgba(5 , 32 , 64 , 28) */}
+      {/* rgba(5 , 32 , 64 , 28) */}
       <Box width="100%" backgroundColor="#150050">
         <Box
           display="flex"
@@ -220,8 +220,8 @@ function App() {
         </Box>
 
         {/* FRIEND SUGGESTION */}
-        <Box width="30%" 
-          // backgroundColor="rgba(5,32,64,28)"
+        <Box width="30%"
+          //   backgroundColor="rgba(5,32,64,28)"
           backgroundColor="#3F0071"
           padding="40px 25px"
           borderRadius="6px"
