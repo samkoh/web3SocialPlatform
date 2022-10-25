@@ -1,8 +1,11 @@
 
 import { createClient } from "urql";
 
-export const APIURL = process.env.REACT_APP_API_URL;
-export const LENS_HUB_CONTRACT_ADDRESS = process.env.REACT_AP_LENS_HUB_CONTRACT_ADDRESS;
+const { REACT_APP_API_URL } = process.env;
+const { REACT_APP_CONTRACT_ADDRESS } = process.env;
+
+export const APIURL = REACT_APP_API_URL;
+export const LENS_HUB_CONTRACT_ADDRESS = REACT_APP_CONTRACT_ADDRESS;
 
 export const urlClient = createClient({
   url: APIURL,
